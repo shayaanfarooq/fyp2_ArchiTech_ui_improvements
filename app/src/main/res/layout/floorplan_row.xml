@@ -8,9 +8,10 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/row_card"
+        android:background="@color/white"
         android:padding="15dp"
         android:layout_margin="10dp"
+        android:elevation="6dp"
         >
 
         <ImageView
@@ -61,8 +62,8 @@
                         android:layout_marginTop="8dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Size:                  "
-                        android:fontFamily="@font/roboto_light"
+                        android:text="Size                  "
+                        android:fontFamily="@font/roboto_medium"
                         android:textSize="12sp"/>
 
                     <TextView
@@ -82,8 +83,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bedrooms:       "
-                    android:fontFamily="@font/roboto_light"
+                    android:text="Bedrooms       "
+                    android:fontFamily="@font/roboto_medium"
                     android:textSize="12sp"/>
                 <TextView
                         android:id="@+id/row_bedrooms"
@@ -102,8 +103,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Bathrooms:      "
-                    android:fontFamily="@font/roboto_light"
+                    android:text="Bathrooms      "
+                    android:fontFamily="@font/roboto_medium"
                     android:textSize="12sp"/>
 
                 <TextView
@@ -124,8 +125,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Cars Capacity: "
-                    android:fontFamily="@font/roboto_light"
+                    android:text="Cars "
+                    android:fontFamily="@font/roboto_medium"
                     android:textSize="12sp"/>
 
                 <TextView
@@ -141,5 +142,12 @@
 
     </LinearLayout>
 
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/maroon"
+        />
 
 </RelativeLayout>

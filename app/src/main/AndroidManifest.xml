@@ -58,6 +58,15 @@
         <activity android:name=".customer.SignupCustomer" />
         <activity android:name=".customer.LoginCustomer" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".customer.HomeDesignActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+
+        </activity>
     </application>
 
 </manifest>
