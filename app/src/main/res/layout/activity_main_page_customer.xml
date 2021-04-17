@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customer.MainPageCustomer">
+
+
+
+    <LinearLayout
+        android:id="@+id/titleHeaderMainPageCustomer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/titleMainPageCustomer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Title"
+            android:textSize="32dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="#000"
+            android:layout_marginBottom="5dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000"/>
+
+
+    </LinearLayout>
+
+
+
+
+    <FrameLayout
+        android:layout_below="@+id/titleHeaderMainPageCustomer"
+        android:id="@+id/fragmentContainerCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNavbarCustomer"
+        />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavbarCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation_customer"
+        android:background="#fff"/>
+
+
+
+
+</RelativeLayout>
